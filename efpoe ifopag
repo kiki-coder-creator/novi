@@ -1,1 +1,17 @@
+  Console.Write("Введите x: ");
+ int x = Convert.ToInt32(Console.ReadLine());
 
+  Console.Write("Введите y: ");
+ int y = Convert.ToInt32(Console.ReadLine());
+
+  Console.Write("Введите z: ");
+ int z = Convert.ToInt32(Console.ReadLine());
+
+ 
+  Console.WriteLine($"Вы ввели следующие числа: x = {x}; y = {y}; z = {z}");
+
+  double ooo = Math.Sqrt(x * x + y * y + z * z);
+              
+
+         
+  Console.WriteLine($"Длина вектора: {ooo}");
